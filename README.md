@@ -32,4 +32,4 @@ A desktop application built with **C++** and **Qt Framework** to simulate and vi
 ### Prerequisites
 - Qt (5.x or 6.x)
 - C++ compiler (e.g., GCC, MSVC)
-- Qt Creator (optional but recommended)
+- Qt Creator 
