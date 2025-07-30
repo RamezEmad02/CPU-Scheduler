@@ -1,24 +1,35 @@
-🧠 Gantt Chart Visualizer for CPU Scheduling Algorithms
+# 🧠 Gantt Chart Visualizer – CPU Scheduling Simulator
 
-A C++ Qt-based application that simulates and visualizes major CPU scheduling techniques including:
-✔️ First-Come-First-Serve (FCFS)
-✔️ Shortest Job First (SJF)
-✔️ Round Robin (RR)
-✔️ Priority Scheduling
-✨ Features:
+A desktop application built with **C++** and **Qt Framework** to simulate and visualize various CPU scheduling algorithms. The tool allows users to input process details, select a scheduling algorithm, and view the real-time **Gantt chart** and performance metrics.
 
-    Interactive process input form
+---
 
-    Real-time Gantt chart rendering using QGraphicsScene
+## 🎯 Features
 
-    Performance metric calculations
+- 📝 Interactive process input (arrival time, burst time, priority, quantum, etc.)
+- 📊 Real-time **Gantt chart** generation using `QGraphicsScene`
+- 🧠 Supports multiple scheduling algorithms:
+  - First-Come-First-Serve (FCFS)
+  - Shortest Job First (SJF)
+  - Priority Scheduling
+  - Round Robin (RR)
+- 📈 Displays calculated scheduling metrics (waiting time, turnaround time, etc.)
+- 💡 Clean UI with stacked widget navigation and styled components
 
-    Clean, styled UI with stacked widget navigation
+---
 
-🚀 Technologies:
+## 🚀 Technologies Used
 
-    C++
+- **C++** – Core logic and object-oriented design
+- **Qt Widgets** – GUI design and layout
+- **QGraphicsView & QGraphicsScene** – Gantt chart rendering
+- **Signals & Slots** – Event-driven programming in Qt
 
-    Qt (Widgets, Graphics)
+---
 
-    Object-Oriented Design
+## 🛠️ Getting Started
+
+### Prerequisites
+- Qt (5.x or 6.x)
+- C++ compiler (e.g., GCC, MSVC)
+- Qt Creator (optional but recommended)
